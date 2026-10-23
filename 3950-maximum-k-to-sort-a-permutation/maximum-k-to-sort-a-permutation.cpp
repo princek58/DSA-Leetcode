@@ -10,8 +10,8 @@ public:
         }
         int m = ans.size();
         if (m == 0) {
-    return 0; 
-}
+             return 0; 
+        }
         int k = ans[0];
         for(int i=1;i<m;i++){
             k = (k & ans[i]);
